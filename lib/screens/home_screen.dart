@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:weatherapp_starter_project/controller/global_controller.dart';
-import 'package:weatherapp_starter_project/utils/custom_colors.dart';
-import 'package:weatherapp_starter_project/widgets/current_weather_widget.dart';
-import 'package:weatherapp_starter_project/widgets/daily_data_forecast.dart';
-import 'package:weatherapp_starter_project/widgets/header_widget.dart';
-import 'package:weatherapp_starter_project/widgets/hourly_data_widget.dart';
+
+import '../controller/global_controller.dart';
+import '../utils/custom_colors.dart';
+import '../widgets/current_weather_widget.dart';
+import '../widgets/daily_data_forecast.dart';
+import '../widgets/header_widget.dart';
+import '../widgets/hourly_data_widget.dart';
+
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);

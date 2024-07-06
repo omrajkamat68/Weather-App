@@ -1,4 +1,5 @@
-import 'package:weatherapp_starter_project/api/api_key.dart';
+
+import '../api/api_key.dart';
 
 String apiURL(var lat, var lon) {
   String url;
